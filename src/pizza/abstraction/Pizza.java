@@ -11,8 +11,8 @@ public abstract class Pizza {
         this.oven = Objects.requireNonNull(oven, "oven");
     }
 
-    public void switchOven(Oven newOven){
-        this.oven = Objects.requireNonNull(oven,"oven");
+    public void switchOven(Oven newOven) {
+        this.oven = Objects.requireNonNull(newOven, "newOven");
     }
     protected abstract String pizzaName();
 
