@@ -1,5 +1,5 @@
 package pizza.implementor;
-//concrete implementor
+//concrete implementor oven
 public class ElectricOven implements Oven{
     @Override
     public String name(){

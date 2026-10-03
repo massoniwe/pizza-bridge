@@ -1,5 +1,5 @@
 package pizza.implementor;
-// implementor
+// implementor oven
 public interface Oven {
     String name();
 
